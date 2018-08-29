@@ -1,0 +1,11 @@
+name: sharemyitems
+version: 0.1
+main: com.donggun.sharemyitems.Run
+
+commands:
+  shareTeam:
+    description: "share team setting"
+  shareInventory:
+    description: "share inventory"
+  shareArrmors:
+    description: "share arrmors"
