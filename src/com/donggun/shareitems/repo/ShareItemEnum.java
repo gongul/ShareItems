@@ -1,5 +1,6 @@
 package com.donggun.shareitems.repo;
 
+import com.donggun.shareitems.Run;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -11,10 +12,15 @@ public enum ShareItemEnum {
     ALL {
         @Override
         public void setInventory(ItemStack[] items,String[] strings){
-            for(Player target : Bukkit.getOnlinePlayers()){
-                PlayerInventory targetInven = target.getInventory();
-                targetInven.setContents(items);
+            try{
+                throw new RuntimeException();
+            }catch (Exception e){
+                throw e;
             }
+//            for(Player target : Bukkit.getOnlinePlayers()){
+//                PlayerInventory targetInven = target.getInventory();
+//                targetInven.setContents(items);
+//            }
         }
 
         @Override
