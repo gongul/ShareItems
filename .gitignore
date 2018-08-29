@@ -1,0 +1,12 @@
+# : IntelliJ
+out/
+.idea/
+ShareMyItems-1.12.2.iml
+
+
+# : Log file
+*.log
+
+
+# OS generated files
+.DS_Store
