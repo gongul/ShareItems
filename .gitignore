@@ -1,7 +1,7 @@
 # : IntelliJ
 out/
 .idea/
-ShareMyItems-1.12.2.iml
+*.iml
 
 
 # : Log file

@@ -1,4 +1,4 @@
-package com.donggun.sharemyitem.repo;
+package com.donggun.shareitems.repo;
 
 import org.bukkit.Bukkit;
 import org.bukkit.scoreboard.Scoreboard;

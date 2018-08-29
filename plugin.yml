@@ -1,6 +1,6 @@
 name: sharemyitems
 version: 0.1
-main: com.donggun.sharemyitems.Run
+main: com.donggun.shareitems.Run
 
 commands:
   shareTeam:

@@ -1,7 +1,7 @@
-package com.donggun.sharemyitem.command;
+package com.donggun.shareitems.command;
 
-import com.donggun.sharemyitem.repo.ShareItemAccessEnum;
-import com.donggun.sharemyitem.repo.ShareItemEnum;
+import com.donggun.shareitems.repo.ShareItemAccessEnum;
+import com.donggun.shareitems.repo.ShareItemEnum;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

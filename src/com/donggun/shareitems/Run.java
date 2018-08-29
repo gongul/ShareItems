@@ -1,7 +1,7 @@
-package com.donggun.sharemyitem;
+package com.donggun.shareitems;
 
-import com.donggun.sharemyitem.command.ShareItemCmd;
-import com.donggun.sharemyitem.command.ShareTeamCmd;
+import com.donggun.shareitems.command.ShareItemCmd;
+import com.donggun.shareitems.command.ShareTeamCmd;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
 
