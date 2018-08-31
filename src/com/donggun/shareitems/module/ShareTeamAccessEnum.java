@@ -1,4 +1,4 @@
-package com.donggun.shareitems.repo;
+package com.donggun.shareitems.module;
 
 public enum ShareTeamAccessEnum{
     ALLOW_COMMAND(new String[]{"set","add"});

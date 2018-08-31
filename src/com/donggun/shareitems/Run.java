@@ -2,6 +2,8 @@ package com.donggun.shareitems;
 
 import com.donggun.shareitems.command.ShareItemCmd;
 import com.donggun.shareitems.command.ShareTeamCmd;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -19,9 +21,10 @@ public class Run extends JavaPlugin implements CommandExecutor {
         getCommand("shareInventory").setExecutor(shareInv);
         getCommand("shareTeam").setExecutor(shareTeam);
 
-        System.out.println("--------- share my items plugin ---------");
-        System.out.println("mady by donggun");
-        System.out.println("plugin on");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN+"--------- share items plugin ---------");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA+"Made By DongGun");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA+"Plugin On");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN+"--------- share items plugin ---------");
 
     }
 
